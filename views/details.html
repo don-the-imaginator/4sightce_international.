@@ -1,0 +1,22 @@
+<section class="item_Detail">
+
+<span class="backbutton"><a href="http://www.dontheimaginator.com/#/portfolio">&laquo; BACK</a></span>
+	<div class="item" ng-model="detailsList">
+		<div id="wrapper" class="section_Gallery">
+			<img class="slide" src="http://www.dontheimaginator.com/images/portfolio/{{detailsList[whichItem].folder}}/{{detailsList[whichItem].photo_1}}">
+			<img class="slide" src="http://www.dontheimaginator.com/images/portfolio/{{detailsList[whichItem].folder}}/{{detailsList[whichItem].photo_2}}">
+			<img class="slide" src="http://www.dontheimaginator.com/images/portfolio/{{detailsList[whichItem].folder}}/{{detailsList[whichItem].photo_3}}">
+			<img class="slide" src="http://www.dontheimaginator.com/images/portfolio/{{detailsList[whichItem].folder}}/{{detailsList[whichItem].photo_4}}">
+			<img class="slide" src="http://www.dontheimaginator.com/images/portfolio/{{detailsList[whichItem].folder}}/{{detailsList[whichItem].photo_5}}">
+		</div>
+
+	</div>
+
+			<div class="info_section">
+			<h1>{{detailsList[whichItem].client}}</h1>
+			<p>{{detailsList[whichItem].description}}</p>
+
+			
+		</div>
+	
+</section>

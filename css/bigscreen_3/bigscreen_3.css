@@ -1,0 +1,254 @@
+body{
+  /*background-color:orange;*/
+}
+
+#mainGallery li{
+	width:20%;
+	float:left;
+
+}
+.parallax-window {
+    min-height: 1100px;
+    background: green;
+    margin-bottom:25px;
+
+}
+
+
+
+h2{
+  background-color:white;
+  margin-bottom:50px;
+}
+.section{
+  /*height:900px;*/
+  width:100%;
+  margin:0px 0px 0px 0px;
+  background-color: blue;
+}
+
+#intro{
+  background-color: orange;
+  width:100%;
+  position:relative;
+
+  
+}
+
+
+
+.introPanel{
+  width:100%;
+  /*padding-top:150px;*/
+  /*height:1250px;*/
+  margin:0px auto 0px auto;
+  /*background-image: url("../images/site_background.jpg");*/
+  background-size: cover;
+ 
+}
+.introPanel img{
+  width:5%;
+  margin:auto;
+  display:block;
+}
+#designGraphic_1{
+  width:50%;
+  margin:0px auto 0px auto;
+  position:relative;
+}
+#designGraphic_2{
+  width:50%;
+  margin:0px auto 0px auto;
+  position:relative;
+}
+#trigger_1{
+  margin-bottom:400px;
+}
+#trigger_2{
+  margin-bottom:400px;
+}
+#trigger_3{
+  margin-bottom:400px;
+}
+#trigger_4{
+  margin-bottom:400px;
+}
+#trigger_5{
+  margin-bottom:200px;
+}
+#trigger_6{
+  margin-bottom:500px;
+}
+#trigger_7{
+  margin-bottom:50px;
+}
+#trigger_8{
+  margin-bottom:550px;
+}
+#helloStatement{
+  opacity:0;
+}
+#section_2_content{
+  opacity:0;
+
+}
+#object_3_content{
+  opacity:0;
+}
+#object_4_content{
+  opacity:0;
+}
+#object_5_content{
+  opacity:0;
+  width:80%;
+  margin:auto;
+}
+#object_6_content{
+  opacity:0;
+}
+#object_7_content{
+  opacity:0;
+}
+#object_8_content{
+  opacity:0;
+  min-height: 1000px;
+}
+
+
+
+#linkBox{
+  width:100px;
+  height:30px;
+  border: 2px #FFDE00 solid;
+  display: block;
+  margin:auto;
+  position:relative;
+  top:500px;
+  text-align: center;
+  padding:15px;
+  text-decoration:none;
+  font-family: 'sf_distant_galaxy_alternateRg';
+}
+#linkBox a{
+  text-decoration:none;
+  color: #FFDE00;
+ 
+}
+#linkBox h1{
+  
+  font-size: 1em;
+}
+
+.backbutton{
+  padding:25px;
+  background:black;
+  position:fixed;
+  left:0px;
+  z-index:500;
+}
+.backbutton a{
+ text-decoration: none;
+ font-family: helvetica bold, sans-serif;
+ font-size: 1.25em;
+ font-weight: 800;
+ color:white;
+}
+
+.info_section{
+  width:75%;
+  margin:0px auto 100px auto;
+  padding:25px;
+
+}
+.info_section p{
+  line-height: 1.55em;
+  font-family: helvetica;
+  font-size: 1em;
+}
+.info_section h1{
+  font-family: helvetica;
+  font-weight: 800;
+  color:black;
+
+  margin-bottom:25px;
+  font-size: 2em;
+}
+
+
+#iconsList{
+  margin-top:50px;
+  float:right;
+  width:27%;
+  vertical-align:baseline;
+}
+#iconsList a{
+  text-decoration:none;
+  font-family: helvetica, sans-serif;
+  font-weight:800;
+  font-size: .75em;
+  margin-bottom: 5px;
+  color:black;
+}
+.socialIcon{
+
+  float:left;
+  margin-left:25px;
+ 
+}
+#facebookIcon{
+  background-image: url("https://www.dontheimaginator.com/images/SOCIAL-ICONS.svg");
+  background-size: 70px 70px;
+  background-repeat: no-repeat;
+  background-position: 0px -20px;
+}
+#linkedIcon{
+  background-image: url("http://www.dontheimaginator.com/images/SOCIAL-ICONS.svg");
+  background-size: 70px 70px;
+  background-repeat: no-repeat;
+  background-position: -40px -20px;
+}
+
+.portfolioItem{
+  width:25%;
+  position: relative;
+
+}
+.portfolioItem a{
+  text-decoration:none;
+  font-family: helvetica, sans-serif;
+  font-weight: 800;
+  font-size: 1.2em;
+
+}
+
+.quickmsg{
+  position:absolute;
+  top: 40%;
+  display:block;
+  color:white;
+  margin: 11px 0px 25px 0px;
+  text-align:center;
+  width:100%;
+  font-weight: 300;
+  font-size: 1.5em;
+}
+.quickmsg_2{
+  position:absolute;
+  bottom:10px;
+  right:10px;
+  color:white;
+  margin:25px 0px 0px 0px;
+  text-align:right;
+  width:100%;
+  font-weight: 400;
+  font-size: 1em;
+}
+
+
+#logo_1{
+  width:100px;
+  fill:#FFDE00;
+  top:500px;
+}
+
+

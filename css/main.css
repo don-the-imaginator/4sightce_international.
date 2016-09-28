@@ -1,0 +1,152 @@
+@import url('css/smartphone/smartphone.css') (min-width:20px) and (max-width:480px);
+@import url('css/tablet/tablet.css') (min-width:481px) and (max-width:768px);
+@import url('css/bigscreen_1/bigscreen_1.css') (min-width:769px) and (max-width:1024px);
+@import url('css/bigscreen_2/bigscreen_2.css') (min-width:1025px) and (max-width:1224px);
+@import url('css/bigscreen_3/bigscreen_3.css') (min-width:1225px) and (max-width:2824px);
+
+
+
+@font-face {
+    font-family: 'sf_distant_galaxy_alternateRg';
+    src: url('css/webfontkit/sfdistantgalaxyalternate-webfont.woff2') format('woff2'),
+         url('css/webfontkit/sfdistantgalaxyalternate-webfont.woff') format('woff');
+    font-weigh
+    font-style: normal;
+
+}
+html{
+	box-sizing: border-box;
+  margin:0px;
+}
+img {
+	width:100%;
+  height:auto;
+	margin:0px;
+	vertical-align: middle;
+}
+a{
+  margin:0px;
+  /* float: right; */
+  /* margin-right: 10px; */
+  /* margin-top: 10px; */
+  text-decoration: none;
+  font-family: helvetica, sans serif;
+  font-weight: 500;
+  color: #2f2e2e;
+  
+}
+
+#mainNav{
+  /*background-color:blue;*/
+  max-width:41%;
+  float:right;
+  margin-top:15px;
+  margin-right:10px;
+}
+#mainNav a{
+  padding-left:15px;
+  text-transform: uppercase;
+  font-size: .8em;
+  letter-spacing: 1px;
+}
+#mainGallery{
+  margin-top:50px;
+
+}
+#Logo{
+  width:28px;
+  height:28px;
+  background-image:url('http://www.getdashcam.com/wp-content/uploads/2016/08/4.png');
+  float:left;
+  background-repeat:no-repeat;
+  background-size: 80%;
+  margin:10px 0px 0px 10px;
+}
+body{
+  
+}
+header{
+  width:100%;
+  height:50px;
+  background-color: white;
+  /* display:block; */
+  position: fixed;
+  box-shadow: 1px 1px 1px #888888;
+  top: 0px;
+  left: 0px;
+  z-index: 500;
+}
+section{
+  margin-top:50px;
+}
+footer{
+  position:fixed;
+  bottom:0px;
+  height:30px;
+  width:100%;
+  background-color:white;
+  box-shadow: -1px -1px 0px #b1b1b1;
+}
+
+#footerText{
+  float:right;
+  font-family: helvetica, sans-serif;
+  margin:7px 10px 0px 0px;
+  color:#2f2e2e;
+  font-size:.75em;
+  letter-spacing: 1px;
+}
+
+.hoverAction{
+  width:100%;
+  background-color: rgba(36,26,1,1);
+  height:100%;
+  opacity:0;
+  position: absolute;
+ 
+  }
+.hoverAction:hover{
+  opacity: 1;
+  visibility: visible;
+}
+
+/* The starting CSS styles for the enter animation */
+#mainGallery li.ng-enter {
+  transition:0.5s linear all;
+  opacity:0;
+  transform:translateY(800px);
+}
+#mainGallery li.ng-enter-stagger {
+  transition-delay:.05s;
+}
+/* The finishing CSS styles for the enter animation */
+#mainGallery li.ng-enter.ng-enter-active {
+  opacity:1;
+  transform:translateY(0);
+}
+
+
+
+/* The starting CSS styles for the enter animation */
+#mainGallery li.ng-leave{
+  transition:.5s linear all;
+  opacity:1;
+  transform:translateX(800px);
+}
+
+/* The finishing CSS styles for the enter animation */
+#mainGallery li.ng-leave.ng-leave-active{
+  opacity:0;
+  transform:translateX(-100%);
+}
+
+#mainGallery li.ng-leave.ng-leave-stagger{
+  transition-delay:.05s;
+  transition-duration: 3;
+}
+.pageSection{
+  margin-top:100px;
+  max-width:80%;
+  margin-left:auto;
+  margin-right:auto;
+}
